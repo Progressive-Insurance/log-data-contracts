@@ -1,0 +1,38 @@
+---
+businessDomainName: Security
+collectionName: Pony Games
+
+datasets:
+  - splunkDataset:
+      quantumName: infosec:access_combined
+      dataContractId: 55bd7cd6-e09d-47bf-ab55-37d9b861ad13
+      datasetDescription: Apache HTTP combined common and access log formatted events.  Provide web logs as well as additional fields that aid in analysis and debugging.
+      datasetStatusCode: active
+      purposeDescription: To provide and retain security logs for the webservers and assist in troubleshooting
+      datasetTypeCode: event
+      consumptionModeCode: security
+      dataProductInitialSmeName: Penelope P. Buttercup
+      dataProductEmailDistributionName: infosec@buttercup.com
+      dataProductSvcMgmtQueueName: Security:InfoSec
+      sourcetypeName: access_combined
+      indexName: infosec
+      ingestTypeCode:
+        - filemon:monitor
+      retention:
+        searchableDayCount: 92
+        retentionDayCount: 1827
+        policyVersionNumber: 5.3.1
+        policyId:
+          - 2.2a
+      dataProtection:
+        infoSecClassificationName: confidential
+        policyVersionNumber: 6.3
+      dataObservability:
+        freshness:
+          measureTypeCode: indexName:sourcetypeName
+          latencyThresholdName: 5min
+        measuredVolume:
+          volumeMeasureDate: 2024-10-05
+          dailyGbCount: 53
+          dailyEventCount: 10120021
+          avgEventByteCount: 5237
