@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+        "redhat.vscode-yaml",
+        "heaths.vscode-guid",
+        "yongwoo.template"
+    ]
+}

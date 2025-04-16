@@ -1,0 +1,52 @@
+---
+businessDomainName: 
+collectionName: 
+
+datasets:
+  - splunkDataset:
+      quantumName: 
+      dataContractId: 
+      datasetDescription: 
+      datasetStatusCode: 
+      purposeDescription: 
+      datasetTypeCode: 
+      consumptionModeCode: 
+      dataProductInitialSmeName: 
+      dataProductEmailDistributionName:
+      dataProductSvcMgmtQueueName: 
+      systemInitialSmeName: 
+      systemEmailDistributionName: 
+      systemSvcMgmtQueueName: 
+      sourcetypeName: 
+      indexName: 
+      sourceName: 
+      ingestTypeCode:
+        - 
+      retention:
+        searchableDayCount: 
+        retentionDayCount: 
+        policyVersionNumber: 
+        policyId:
+          - 
+      dataProtection:
+        infoSecClassificationName: 
+        policyVersionNumber: 
+      dataObservability:
+        freshness:
+          measureTypeCode: 
+          latencyThresholdName: 
+        projectedVolume:
+          volumeProjectionDate:
+          dailyGbCount: 
+          dailyEventCount: 
+          avgEventByteCount: 
+        measuredVolume:
+          volumeMeasureDate:
+          dailyGbCount: 
+          dailyEventCount: 
+          avgEventByteCount: 
+      notableConsumer:
+        - consumer:
+            consumerName:
+            consumerUseCaseDescription: 
+            searchCriteriaText: 

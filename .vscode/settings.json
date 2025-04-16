@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "yaml.schemas": {
+        "./schema/splunk_data_contract_schema.json": [ "*.yaml" ],
+    },
+    "yaml.disableAdditionalProperties": true
+}
